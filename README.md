@@ -3,13 +3,13 @@
 This repository provides a structured learning path for mastering AWS cloud services, from basic EC2 setup to advanced automation using CloudFormation and Terraform. Whether you're a beginner or an advanced user, this repository is designed to help you implement and automate AWS services efficiently.
 
 # Table of Contents
-Overview
-Prerequisites
-AWS Services Covered
-Setup Instructions
-Folder Structure
-Contributing
-License
+Overview,
+Prerequisites,
+AWS Services Covered,
+Setup Instructions,
+Folder Structure,
+Contributing,
+License,
 Overview
 
 # This repository covers the following key AWS services:
