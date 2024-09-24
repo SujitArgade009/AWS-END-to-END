@@ -1,5 +1,5 @@
 # AWS-END-to-END
-# AWS Cloud Journey: From EC2 to Everything
+#AWS Cloud Journey: From EC2 to Everything
 This repository provides a structured learning path for mastering AWS cloud services, from basic EC2 setup to advanced automation using CloudFormation and Terraform. Whether you're a beginner or an advanced user, this repository is designed to help you implement and automate AWS services efficiently.
 
 # Table of Contents
