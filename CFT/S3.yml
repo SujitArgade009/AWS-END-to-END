@@ -1,0 +1,7 @@
+Resources:
+  S3B3J1QP:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: sujit-argade-bucket-1234
+      VersioningConfiguration:
+        Status: Enabled

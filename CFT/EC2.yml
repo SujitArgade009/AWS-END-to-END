@@ -1,0 +1,16 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: A sample template for creating an EC2 instance with an Elastic IP
+Resources:
+  MyEC2Instance:
+    Type: 'AWS::EC2::Instance'
+    Properties:
+      ImageId: ami-0e86e20dae9224db8
+      InstanceType: t2.micro
+      KeyName: sujit-project
+      BlockDeviceMappings:
+        - DeviceName: /dev/sdm
+          Ebs:
+            Ebs:
+            VolumeType: gp2  # General Purpose SSD (gp2) is eligible for free tier
+            VolumeSize: 30  # Use 30 GB to stay within free tier limits
+            DeleteOnTermination: true  # Optional: volume will be deleted with the instance
